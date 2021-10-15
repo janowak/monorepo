@@ -1,0 +1,10 @@
+# npm-check-updates configuration used by yarn deps:check && yarn deps:update
+# convenience scripts.
+# @link https://github.com/raineorshine/npm-check-updates
+reject: [
+    # Add here exclusions on packages if any
+    # i.e: '@types/node'
+
+    # till next-i18next officially supports ^21.3.0
+    "i18next"
+]
